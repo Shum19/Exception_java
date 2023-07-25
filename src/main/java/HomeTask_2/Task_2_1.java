@@ -9,10 +9,9 @@ import java.util.Scanner;
 
 public class Task_2_1 {
     public static void main(String[] args) {
-//        Scanner input = new Scanner(System.in);
-//        isFloat.isFloat(input);
-        String path = System.getProperty("user.dir");
-        System.out.println(path);
+        Scanner input = new Scanner(System.in);
+        isFloat.isFloat(input);
+
     }
 
 }
