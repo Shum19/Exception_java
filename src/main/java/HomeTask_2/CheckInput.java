@@ -2,7 +2,7 @@ package HomeTask_2;
 
 import java.util.Scanner;
 
-public class isFloat {
+public class CheckInput {
     public static float isFloat(Scanner input ){
         Scanner input_2 = new Scanner(System.in);
         System.out.println("Enter number");
@@ -16,5 +16,13 @@ public class isFloat {
             float num = isFloat(input_2);
             return num;
         }
+    }
+    public static  String isEmpty(Scanner input) throws Exception {
+        System.out.println("Enter number");
+        String data = input.nextLine();
+        if (data.isEmpty()) {
+            throw new Exception("To enter Empty Line is not permitted");
+        }
+        return data;
     }
 }

@@ -4,14 +4,12 @@ package HomeTask_2;
    приложения, вместо этого, необходимо повторно запросить у пользователя ввод данных.
  */
 
-import java.nio.file.Path;
 import java.util.Scanner;
 
 public class Task_2_1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        isFloat.isFloat(input);
-
+        CheckInput.isFloat(input);
     }
 
 }
