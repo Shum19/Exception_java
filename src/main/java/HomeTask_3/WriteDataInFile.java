@@ -20,7 +20,7 @@ public class WriteDataInFile {
                     writer.append("\n" + dataString);
                     System.out.println("Data added to File " + path);
                 } catch (IOException e) {
-                    throw new RuntimeException(e);
+                    System.out.println("Data is not added");;
                 }
             }else {
                 try {
